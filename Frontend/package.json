@@ -50,8 +50,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "jest": "react-scripts test --detectOpenHandles",
-    "test": "react-scripts test --detectOpenHandles --reporters=./custom-reporter.js",
+    "jest": "react-scripts test --watchAll --detectOpenHandles",
+    "test": "react-scripts test --watchAll --detectOpenHandles --reporters=./custom-reporter.js",
     "test:cov": "npm test -- --coverage --watchAll=false",
     "test:debug": "react-scripts --inspect-brk test --runInBand",
     "eject": "react-scripts eject",
